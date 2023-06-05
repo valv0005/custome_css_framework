@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../sass/input.scss"],"names":[],"mappings":"AAEA;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI","file":"output.css"}
-=======
 {"version":3,"sourceRoot":"","sources":["../sass/input.scss"],"names":[],"mappings":"AAEA;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAIJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA","file":"output.css"}
->>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
