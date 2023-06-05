@@ -9,7 +9,18 @@ $btn_border:0;
 $btn_color:white;
 
 
-$table-background: #bbdfc5;
+  //variables
+//theme colours for the buttons
+$primary: #14342b;
+$secondary: #bab700;
+$success: #60935D;
+$danger: red;
+$dark: #011;
+
+//hover
 $hover_pink: #ff579f; //any hover
-$accent-color: #bab700; 
+
+//other colours
+$accent-color: #bab700;
+$table-background: #bbdfc5;
 $border_color: #60935D; //border color for tables and forms
