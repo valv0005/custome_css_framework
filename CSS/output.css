@@ -1,20 +1,29 @@
-body {
-  font-family: "Outfit", sans-serif;
-}
-
 h1 {
   font-weight: bold;
-  font-size: 2em;
 }
 
 h2 {
   font-weight: semi-bold;
-  font-size: 1.5em;
 }
 
 h3 {
   font-weight: regular;
-  font-size: 1.2em;
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgb(121, 0, 0);
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  border: 0;
+  color: white;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
 }
 
 /*# sourceMappingURL=output.css.map */
