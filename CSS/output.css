@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Outfit", sans-serif;
 }
@@ -6,6 +7,12 @@ h1 {
   font-weight: bold;
 }
 
+=======
+h1 {
+  font-weight: bold;
+}
+
+>>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
 h2 {
   font-weight: semi-bold;
 }
@@ -13,5 +20,24 @@ h2 {
 h3 {
   font-weight: regular;
 }
+<<<<<<< HEAD
+=======
+
+button {
+  border-radius: 10px;
+  background-color: rgb(121, 0, 0);
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  border: 0;
+  color: white;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+>>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
 
 /*# sourceMappingURL=output.css.map */
