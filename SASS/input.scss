@@ -35,4 +35,67 @@ ol li {
     margin-left: 35px;
   }
 
+
+  //variables
+$table-background: #bbdfc5;
+$hover_pink: #ff579f; //any hover
+$accent-color: #bab700; 
+$border_color: #60935D; //border color for tables and forms
+
+table {
+    width: 90%;
+    background-color: $table-background;
+    border-radius: 0.5rem;
+
+    th, td {
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        border-bottom: 0.1rem solid $border_color;
+      }
+
+      tr:hover {
+        background-color: $hover_pink;
+        color: white;
+    } //closes hover
+
+} //closes table nesting
+
+//Form style
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 0.1rem solid $border_color;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+  }
   
+  input[type=submit] {
+    width: 100%;
+    background-color: $accent-color;
+    color: white;
+    padding: 1rem 1rem;
+    margin: 0.1rem 0;
+    border: none;
+    border-radius: 0.1rem;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: $hover_pink;
+  }
+  
+  .form_container {
+    border-radius: 0.1rem;
+    background-color: $table-background;
+    padding: 1rem;
+    width: 90%;
+  }
+
