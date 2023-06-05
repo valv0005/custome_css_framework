@@ -1,7 +1,18 @@
+<<<<<<< HEAD
+body {
+  font-family: "Outfit", sans-serif;
+}
+
 h1 {
   font-weight: bold;
 }
 
+=======
+h1 {
+  font-weight: bold;
+}
+
+>>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
 h2 {
   font-weight: semi-bold;
 }
@@ -9,6 +20,8 @@ h2 {
 h3 {
   font-weight: regular;
 }
+<<<<<<< HEAD
+=======
 
 button {
   border-radius: 10px;
@@ -25,5 +38,6 @@ ol li {
   padding: 5px;
   margin-left: 35px;
 }
+>>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
 
 /*# sourceMappingURL=output.css.map */

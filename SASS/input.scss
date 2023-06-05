@@ -1,13 +1,25 @@
 @import 'variables';
 
-h1 {
-    font-weight: bold;
-}
+body {
+    font-family: 'Outfit', sans-serif;
+ }
 
-h2 {
-    font-weight: semi-bold;
-}
+ h1 {
+     font-weight: bold;
+     font-size: 2em;
+ }
 
+<<<<<<< HEAD
+ h2 {
+     font-weight: semi-bold;
+     font-size: 1.5em;
+ }
+
+ h3 {
+     font-weight: regular;
+     font-size: 1.2em;
+ }
+=======
 h3 {
     font-weight: regular;
 }
@@ -29,3 +41,4 @@ ol li {
 }
 
   
+>>>>>>> aca637d0e88a9c8b195ecc1b5efa63ff59606b50
