@@ -19,15 +19,61 @@ h3 {
     font-size: 1.2em;
 }
 
+// Buttons 
 
-button{
+.btn{
     border-radius: 10px ;
-    background-color: rgb(121, 0, 0);
     padding: 0.5rem 2rem;
     margin: 0.5rem;
     border:0;
     color: white;
+    background-color: red;
+
+    &:hover {
+        background-color: $hover_pink;
+        color: white;
+    } //closes hover
+
 }
+
+.btn-primary{    //Primary button
+    @extend .btn;   
+    background-color: $table-background;
+    
+}
+
+.btn-secondary{    //Primary button
+    @extend .btn;   
+    background-color: $table-background;
+    
+}
+
+.btn-success{    //Primary button
+    @extend .btn;   
+    background-color: $table-background;
+    
+}
+
+.btn-danger{    //Primary button
+    @extend .btn;   
+    background-color: $table-background;
+    
+}
+
+
+
+
+.btn-dark{    //Primary button
+    @extend .btn;   
+    background-color: $table-background;
+    
+}
+
+
+
+
+
+
 ol li {
     background: #ffe5e5;
     color: darkred;

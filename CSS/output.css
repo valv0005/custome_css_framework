@@ -17,13 +17,37 @@ h3 {
   font-size: 1.2em;
 }
 
-button {
+.btn, .btn-dark, .btn-danger, .btn-success, .btn-secondary, .btn-primary {
   border-radius: 10px;
-  background-color: rgb(121, 0, 0);
   padding: 0.5rem 2rem;
   margin: 0.5rem;
   border: 0;
   color: white;
+  background-color: red;
+}
+.btn:hover, .btn-dark:hover, .btn-danger:hover, .btn-success:hover, .btn-secondary:hover, .btn-primary:hover {
+  background-color: #ff579f;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #bbdfc5;
+}
+
+.btn-secondary {
+  background-color: #bbdfc5;
+}
+
+.btn-success {
+  background-color: #bbdfc5;
+}
+
+.btn-danger {
+  background-color: #bbdfc5;
+}
+
+.btn-dark {
+  background-color: #bbdfc5;
 }
 
 ol li {
