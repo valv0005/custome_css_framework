@@ -17,6 +17,11 @@ h3 {
   font-size: 1.2em;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .btn, .btn-dark, .btn-danger, .btn-success, .btn-secondary, .btn-primary {
   border-radius: 10px;
   padding: 0.5rem 2rem;
@@ -55,10 +60,11 @@ ol li {
   color: darkred;
   padding: 5px;
   margin-left: 35px;
+  width: 100%;
 }
 
 table {
-  width: 90%;
+  width: 100%;
   background-color: #bbdfc5;
   border-radius: 0.5rem;
 }
@@ -106,7 +112,7 @@ input[type=submit]:hover {
   border-radius: 0.1rem;
   background-color: #bbdfc5;
   padding: 1rem;
-  width: 90%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=output.css.map */

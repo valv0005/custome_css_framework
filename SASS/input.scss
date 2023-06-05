@@ -19,6 +19,13 @@ h3 {
     font-size: 1.2em;
 }
 
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 // Buttons 
 
 .btn{
@@ -79,13 +86,14 @@ ol li {
     color: darkred;
     padding: 5px;
     margin-left: 35px;
+    width: 100%;
   }
 
 
 
 
 table {
-    width: 90%;
+    width: 100%;
     background-color: $table-background;
     border-radius: 0.5rem;
 
@@ -138,6 +146,6 @@ input[type=text], select {
     border-radius: 0.1rem;
     background-color: $table-background;
     padding: 1rem;
-    width: 90%;
+    width: 100%;
   }
 // stop here
