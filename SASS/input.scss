@@ -38,34 +38,34 @@ h3 {
 
 .btn-primary{    //Primary button
     @extend .btn;   
-    background-color: $table-background;
+    background-color: $primary;
     
 }
 
-.btn-secondary{    //Primary button
+.btn-secondary{    //secondary button
     @extend .btn;   
-    background-color: $table-background;
+    background-color: $secondary;
     
 }
 
-.btn-success{    //Primary button
+.btn-success{    //success button
     @extend .btn;   
-    background-color: $table-background;
+    background-color: $success;
     
 }
 
-.btn-danger{    //Primary button
+.btn-danger{    //danger button
     @extend .btn;   
-    background-color: $table-background;
+    background-color: $danger;
     
 }
 
 
 
 
-.btn-dark{    //Primary button
+.btn-dark{    //dark button
     @extend .btn;   
-    background-color: $table-background;
+    background-color: $dark;
     
 }
 

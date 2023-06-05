@@ -31,23 +31,23 @@ h3 {
 }
 
 .btn-primary {
-  background-color: #bbdfc5;
+  background-color: #14342b;
 }
 
 .btn-secondary {
-  background-color: #bbdfc5;
+  background-color: #bab700;
 }
 
 .btn-success {
-  background-color: #bbdfc5;
+  background-color: #60935D;
 }
 
 .btn-danger {
-  background-color: #bbdfc5;
+  background-color: red;
 }
 
 .btn-dark {
-  background-color: #bbdfc5;
+  background-color: #011;
 }
 
 ol li {
