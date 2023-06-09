@@ -135,17 +135,30 @@ input[type=submit]:hover {
   border-color: #bab700;
 }
 
-.p, .p_r {
+.p, p.x, p.l, p.b, .p_r {
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
   width: 10%;
   border: 2px solid #60935D;
+  padding-top: 0px;
   padding: 0px;
 }
 
 .p_r {
   padding-right: 0.6rem;
+}
+
+p.b {
+  padding-bottom: 0.938;
+}
+
+p.l {
+  padding-left: 1.25rem;
+}
+
+p.x {
+  padding-left: 1.875rem;
 }
 
 /*# sourceMappingURL=output.css.map */
