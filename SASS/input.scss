@@ -189,17 +189,17 @@ input[type=text], select {
     padding-right: $sm;
 }
 
-p.b {
+.p_b {
     @extend .p;
     padding-bottom: $md;
 }
 
-p.l {
+.p_l {
     @extend .p;
     padding-left: $lg;
 }
 
-p.x {
+.p_x {
     @extend .p;
     padding-left: $xlg;
 }
