@@ -115,4 +115,20 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+.border, .border_secondary, .border_primary {
+  border-bottom: 0.1rem solid #60935D;
+  border-radius: 0.5rem;
+}
+.border:hover, .border_secondary:hover, .border_primary:hover {
+  border-color: #ff579f;
+}
+
+.border_primary {
+  border-color: #14342b;
+}
+
+.border_secondary {
+  border-color: #bab700;
+}
+
 /*# sourceMappingURL=output.css.map */

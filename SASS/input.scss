@@ -149,3 +149,22 @@ input[type=text], select {
     width: 100%;
   }
 // stop here
+
+.border {
+    border-bottom: 0.1rem solid $border_color;
+    border-radius: 0.5rem;
+
+    &:hover {
+        border-color: $hover_pink;
+    } //closes hover
+}
+
+.border_primary {
+    @extend .border;   
+    border-color: $border_primary;
+}
+
+.border_secondary {
+    @extend .border;
+    border-color: $border_secondary;
+}
