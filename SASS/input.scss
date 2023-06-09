@@ -174,18 +174,19 @@ input[type=text], select {
     border-color: $border_secondary;
 }
 
-.text {
-    margin: auto;
+.p {
+    margin: 0 auto;
     font-size: 20px;
     text-align: center;
-    width: 30%;
+    width: 10%;
     border: 2px solid #60935D;
     padding-top: 0px;
+    padding: 0px;
 }
 
-.text1 {
-@extend .text;
-    padding-right: $xs;
+.p_r {
+    @extend .p;
+    padding-right: $sm;
 }
 
 

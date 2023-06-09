@@ -135,17 +135,17 @@ input[type=submit]:hover {
   border-color: #bab700;
 }
 
-.text, .text1 {
-  margin: auto;
+.p, .p_r {
+  margin: 0 auto;
   font-size: 20px;
   text-align: center;
-  width: 30%;
+  width: 10%;
   border: 2px solid #60935D;
-  padding-top: 20px;
+  padding: 0px;
 }
 
-.text1 {
-  padding-right: 0.3rem;
+.p_r {
+  padding-right: 0.6rem;
 }
 
 /*# sourceMappingURL=output.css.map */
