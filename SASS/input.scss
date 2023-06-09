@@ -195,13 +195,18 @@ input[type=text], select {
 
 .p_l {
     @extend .p;
-    padding-left: $xs;
+    padding-left: $lg;
 }
 
 .p_x {
     @extend .p;
     padding-left: $md;
     padding-right: $md;
+}
+
+.p_t {
+    @extend .p;
+    padding-top: $xlg;
 }
 
 
