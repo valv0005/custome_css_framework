@@ -173,3 +173,23 @@ input[type=text], select {
     @extend .border;
     border-color: $border_secondary;
 }
+
+.text {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    border: 2px solid #60935D;
+    padding-top: 20px;
+}
+
+.text1 {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    border: 5px solid #bab700;
+    padding-right: 40px;
+  }
+
+  
