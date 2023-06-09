@@ -135,7 +135,7 @@ input[type=submit]:hover {
   border-color: #bab700;
 }
 
-.p, p.x, p.l, p.b, .p_r {
+.p, .p_x, .p_l, .p_b, .p_r {
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
@@ -149,15 +149,15 @@ input[type=submit]:hover {
   padding-right: 0.6rem;
 }
 
-p.b {
+.p_b {
   padding-bottom: 0.938;
 }
 
-p.l {
+.p_l {
   padding-left: 1.25rem;
 }
 
-p.x {
+.p_x {
   padding-left: 1.875rem;
 }
 
