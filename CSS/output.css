@@ -141,24 +141,45 @@ input[type=submit]:hover {
 }
 
 .p_r {
-  padding-right: 12rem;
+  padding-right: 20rem;
 }
 
 .p_b {
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
 }
 
 .p_l {
-  padding-left: 20rem;
+  padding-left: 25rem;
 }
 
 .p_x {
-  padding-left: 12rem;
-  padding-right: 12rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .p_t {
-  padding-top: 20rem;
+  padding-top: 25rem;
+}
+
+.text-primary {
+  color: #14342b;
+}
+
+.text-secondary {
+  color: #bab700;
+}
+
+.text-success {
+  color: #60935D;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-dark {
+  background-color: #011;
+  color: white;
 }
 
 /*# sourceMappingURL=output.css.map */

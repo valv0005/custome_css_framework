@@ -209,7 +209,23 @@ input[type=text], select {
     padding-top: $lg;
 }
 
+.text-primary{
+    color:$primary;
+}
 
+.text-secondary{
+    color:$secondary;
+}
+.text-success{
+    color:$success;
+}
+.text-danger{
+    color:$danger;
+}
+.text-dark{
+    background-color:$dark;
+    color:white;
+}
 
 
 
