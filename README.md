@@ -40,7 +40,7 @@ Utilities listed included in the CSS framework
 2. Download zip file or clone the repository
 3. Check through the Terminal if Sass has been propely installed
 4. Create your .html file
-5. Link your stylesheet to input.scss file. Use this code inside the Head <link rel="stylesheet" href="css/output.css">
+5. Link your stylesheet to input.scss file. Use this code inside the Head `<link rel="stylesheet" href="css/output.css">`
 
 ## Usage
 

@@ -22,8 +22,43 @@ h3 {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-button:hover {
   background-color: #555;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.tabs {
+  float: left;
+}
+
+.tabs a {
+  display: block;
+  color: #14342b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.tabs a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.tabs a.active {
+  color: white;
+  background-color: #14342b;
 }
 
 .btn, .btn-dark, .btn-danger, .btn-success, .btn-secondary, .btn-primary {
@@ -99,7 +134,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #bab700;
+  background-color: #14342b;
   color: white;
   padding: 1rem 1rem;
   margin: 0.1rem 0;
