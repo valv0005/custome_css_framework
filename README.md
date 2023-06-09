@@ -31,3 +31,11 @@ One of the main advantages of using sass to create a custom Css Framework is to 
 This particular framework enables you to customize the framework by: 
 
 1. Modifying the variable values in the _variable.scss file  
+
+## List of variables 
+ - Border
+ - Padding
+ - Margin
+ - Font Size
+ - Font Weight
+ - Color
