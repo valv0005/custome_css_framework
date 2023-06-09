@@ -189,6 +189,23 @@ input[type=text], select {
     padding-right: $sm;
 }
 
+p.b {
+    @extend .p;
+    padding-bottom: $md;
+}
+
+p.l {
+    @extend .p;
+    padding-left: $lg;
+}
+
+p.x {
+    @extend .p;
+    padding-left: $xlg;
+}
+
+
+
 
 
 
