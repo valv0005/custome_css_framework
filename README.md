@@ -6,6 +6,7 @@
 2. Carlos Neito
 3. Ben Olafimihan
 4. Jishnu Purahoo
+5. Ayana Kulmakhanova
 
 Sass is a CSS extension compatible syntax that lets you use variables, nested rules, mixins, inline imports, and more. 
 One of the main advantages of using sass to create a custom Css Framework is to save time and make CSS easier and less redundant. 
