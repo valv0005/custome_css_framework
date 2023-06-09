@@ -135,13 +135,13 @@ input[type=submit]:hover {
   border-color: #bab700;
 }
 
-.p, .p_x, .p_l, .p_b, .p_r {
+.p, .p_t, .p_x, .p_l, .p_b, .p_r {
   font-size: 20px;
   border: 0.1rem solid #14342b;
 }
 
 .p_r {
-  padding-right: 0.938;
+  padding-right: 12rem;
 }
 
 .p_b {
@@ -149,13 +149,16 @@ input[type=submit]:hover {
 }
 
 .p_l {
-  padding-left: 15rem;
+  padding-left: 20rem;
 }
 
 .p_x {
-  padding-left: 0.938;
-  padding-right: 0.938;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
+.p_t {
+  padding-top: 20rem;
+}
 
 /*# sourceMappingURL=output.css.map */
