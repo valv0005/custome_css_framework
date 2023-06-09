@@ -247,6 +247,50 @@ input[type=text], select {
     background-color:$danger;
     color:white;
 }
+// ------------------------------
+// Margin Utility Classes
+
+.container-m {
+    border: solid $danger;
+    padding: 0.1rem;
+}
+
+.m {
+    font-size: 20px;
+    border: 1px solid $border_primary;
+    text-align: center;
+    color:azure;
+    background-color: tomato;
+
+}
+
+.m-r {
+    @extend .m;
+    margin-right: $xs;
+}
+
+.m-t {
+    @extend .m;
+    margin-top: $sm;
+}
+
+.m-b {
+    @extend .m;
+    margin-bottom: $sm;
+}
+
+.m-l {
+    @extend .m;
+    margin-left: $sm;
+}
+
+
+// --------------------------------
+
+
+  
+
+
 
 
 

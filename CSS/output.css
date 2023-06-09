@@ -202,4 +202,33 @@ input[type=submit]:hover {
   color: white;
 }
 
+.container-m {
+  border: solid red;
+  padding: 0.1rem;
+}
+
+.m, .m-l, .m-b, .m-t, .m-r {
+  font-size: 20px;
+  border: 1px solid #14342b;
+  text-align: center;
+  color: azure;
+  background-color: tomato;
+}
+
+.m-r {
+  margin-right: 10rem;
+}
+
+.m-t {
+  margin-top: 15rem;
+}
+
+.m-b {
+  margin-bottom: 15rem;
+}
+
+.m-l {
+  margin-left: 15rem;
+}
+
 /*# sourceMappingURL=output.css.map */
