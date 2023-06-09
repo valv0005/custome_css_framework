@@ -1,4 +1,4 @@
-# Custom_Css_Framework
+# Sabor Custom_Css_Framework
 
 ## Team Members 
 
@@ -8,8 +8,15 @@
 4. Jishnu Purahoo
 5. Ayana Kulmakhanova
 
-Sass is a CSS extension compatible syntax that lets you use variables, nested rules, mixins, inline imports, and more. 
-One of the main advantages of using sass to create a custom Css Framework is to save time and make CSS easier and less redundant. 
+Sabor CSS framework contains 6 elements and 6 utilities to add in any project. Our project team will describe the installation, usage and customazation instructions
+## Elements
+1. Headings
+2. Lists
+3. Forms 
+4. Inputs
+
+4. Tables
+5. Buttons 
 
 ## Installation Process 
 
@@ -39,5 +46,4 @@ This particular framework enables you to customize the framework by:
  - Font Size
  - Font Weight
  - Color
-
 
