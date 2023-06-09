@@ -63,7 +63,7 @@ This particular framework enables you to customize the framework by:
 ## Authors 
 
 1. Amalia Valverde
-2. Carlos Neito
+2. Carlos Nieto
 3. Ben Olafimihan
 4. Jishnu Purahoo
 5. Ayana Kulmakhanova
