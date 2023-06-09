@@ -209,6 +209,7 @@ input[type=text], select {
     padding-top: $lg;
 }
 
+// Text utilities color
 .text-primary{
     color:$primary;
 }
@@ -226,6 +227,27 @@ input[type=text], select {
     background-color:$dark;
     color:white;
 }
+
+
+// Text utilities color
+.bg-primary{
+    background-color:$primary;
+    color:white;
+}
+
+.bg-secondary{
+    background-color:$secondary;
+    color:white;
+}
+.bg-success{
+    background-color:$success;
+    color:white;
+}
+.bg-danger{
+    background-color:$danger;
+    color:white;
+}
+
 
 
 

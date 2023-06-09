@@ -182,4 +182,24 @@ input[type=submit]:hover {
   color: white;
 }
 
+.bg-primary {
+  background-color: #14342b;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #bab700;
+  color: white;
+}
+
+.bg-success {
+  background-color: #60935D;
+  color: white;
+}
+
+.bg-danger {
+  background-color: red;
+  color: white;
+}
+
 /*# sourceMappingURL=output.css.map */
