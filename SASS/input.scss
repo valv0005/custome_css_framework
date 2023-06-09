@@ -184,12 +184,10 @@ input[type=text], select {
 }
 
 .text1 {
-    margin: auto;
-    font-size: 20px;
-    text-align: center;
-    width: 30%;
-    border: 5px solid #bab700;
-    padding-right: 40px;
-  }
+@extend .text;
+    padding-right: $xs;
+}
+
+
 
 
