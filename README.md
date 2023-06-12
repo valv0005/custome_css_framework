@@ -34,15 +34,16 @@ Utilities listed included in the CSS framework
 - Padding
 - Border
 
-## Installation Process 
+## Installation Process
 
 1. Install node.js to make sure that SASS is properly installed
 2. Download zip file or clone the repository
 3. Check through the Terminal if Sass has been propely installed
-4. Create your .html file
-5. Link your stylesheet to input.scss file. Use this code inside the Head `<link rel="stylesheet" href="css/output.css">`
+
 
 ## Usage
+1. Link your stylesheet to input.scss file. Use this code inside the Head `<link rel="stylesheet" href="css/output.css">`
+
 
 
 ## Customization using Sabor CSS Framework. 
