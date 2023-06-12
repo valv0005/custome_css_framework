@@ -24,7 +24,6 @@ h3 {
     width: 80%;
     margin: 0 auto;
 }
-
   
 //navigation
 header{
@@ -104,17 +103,11 @@ header{
 }
 
 
-
-
 .btn-dark{    //dark button
     @extend .btn;   
     background-color: $dark;
     
 }
-
-
-
-
 
 
 ol li {
@@ -124,9 +117,6 @@ ol li {
     margin-left: 35px;
     width: 100%;
   }
-
-
-
 
 table {
     width: 100%;
@@ -315,16 +305,6 @@ input[type=text], select {
     margin-left: $sm;
 }
 
-
-// --------------------------------
-
-
-  
-
-
-
-
-
 @media (max-width: 767px) {
     header{
         display: block;
@@ -419,3 +399,4 @@ input[type=text], select {
 }
 
 
+}
