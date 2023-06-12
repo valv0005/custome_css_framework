@@ -1,40 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabor CSS</title>
     <link rel="stylesheet" href="css/output.css">
-</head>
-<body>
-<h1>Main Heading</h1>
-<h2>Secondary Heading</h2>
-<h3>Tertiary Heading</h3>
-
-    <h1>Lists</h1>
-    <div class="lists">
-        <ol>
-            <li>Red</li>
-            <li>Blue</li>
-            <li>Yellow</li>
-            <li>Green</li>
-            <li>Orange</li>
-          </ol>
-    </div>
-    
-
-<div class="button-container"></div>
-<button type="button" class="btn-primary">Primary</button>
-<button type="button" class="btn-secondary">Secondary</button>
-<button type="button" class="btn-success">Success</button>
-<button type="button" class="btn-danger">Danger</button>
-<button type="button" class="btn-warning">Warning</button>
-<button type="button" class="btn-info">Info</button>
-<button type="button" class="btn-light">Light</button>
-<button type="button" class="btn-dark">Dark</button>
-
-<button type="button" class="btn btn-link">Link</button>
-
-</body>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Sabor CSS Framework</h1>
+        <nav>
+          <ul>
+            <li class="tabs">
+              <a class="active" href="index.html">Standard HTML</a>
+            </li>
+            <li class="tabs">
+              <a href="utilities.html">Utilities</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <br>
+      <h2>Headings</h2>
+      <h1>Main Heading</h1>
+      <h2>Secondary Heading</h2>
+      <h3>Tertiary Heading</h3>
+      <br>
+      <h2>Lists</h2>
+      <div class="lists"></div>
+      <ol>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Yellow</li>
+        <li>Green</li>
+        <li>Orange</li>
+      </ol>
+      <br>
+      <div class="form_container">
+        <h2>Form</h2>
+        <form>
+          <label for="fname">Name:</label>
+          <br>
+          <input type="text" id="fname" name="fname" placeholder="Your name..">
+          <br>
+          <label for="uname">Username:</label>
+          <br>
+          <input type="text" id="uname" name="uname" placeholder="Your user name..">
+          <input type="submit" value="Submit">
+          <br>
+        </form>
+      </div>
+      <br>
+      <h2>Table</h2>
+      <table>
+        <tr>
+          <th>Lorem 1</th>
+          <th>Lorem 2</th>
+          <th>Lorem 3</th>
+        </tr>
+        <tr>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+          <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit</td>
+        </tr>
+      </table>
+      <div class="button-container">
+        <h2>Buttons</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+      </div>
+    </main>
+  </body>
 </html>
