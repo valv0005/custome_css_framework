@@ -43,7 +43,19 @@ Utilities listed included in the CSS framework
 5. Link your stylesheet to input.scss file. Use this code inside the Head `<link rel="stylesheet" href="css/output.css">`
 
 ## Usage
-
+Implement various advanced features and visual elements on your website:
+- Headings:
+- Lists:
+- Forms :
+- Inputs: 
+- Tables
+- Buttons 
+- Colour
+- Font weight
+- Font size 
+- Margin 
+- Padding
+- Border
 
 ## Customization using Sabor CSS Framework. 
 
