@@ -40,7 +40,7 @@ Utilities listed included in the CSS framework
 2. Download zip file or clone the repository
 3. Check through the Terminal if Sass has been propely installed
 4. Create your .html file
-5. Link your stylesheet to input.scss file. Use this code inside the Head <link rel="stylesheet" href="css/output.css">
+5. Link your stylesheet to input.scss file. Use this code inside the Head `<link rel="stylesheet" href="css/output.css">`
 
 ## Usage
 
@@ -63,7 +63,7 @@ This particular framework enables you to customize the framework by:
 ## Authors 
 
 1. Amalia Valverde
-2. Carlos Neito
+2. Carlos Nieto
 3. Ben Olafimihan
 4. Jishnu Purahoo
 5. Ayana Kulmakhanova

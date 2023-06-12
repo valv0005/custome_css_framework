@@ -9,14 +9,17 @@
 </head>
 <body>
     <main class="container">
-
-        <nav>
-                <a href="index.html">Standard HTML</a>
-                <a href="utilities.html">Utilities</a>
-        </nav>
-    <h1>Sabor CSS Framework</h1>
+        <header>
+            <h1>Sabor CSS Framework</h1>
+            <nav>
+              <ul>
+                <li class="tabs"><a href="index.html">Standard HTML</a></li>
+                <li class="tabs"><a class="active" href="utilities.html">Utilities</a></li>
+              </ul>
+            </nav>
+          </header>
     <br>
-    <h2>Utilites</h2>
+    <h2>Utilities</h2>
     <h3>Border bottom & colors examples</h3>
 
     <p class="border">Border bottom & default color</p>
@@ -31,6 +34,47 @@
         <br>
         &lt;p class="border_secondary"&gt; Border bottom & secondary color&lt;/p&gt;
         <br>
+    </code>
+
+    <div class="color">
+        <h3>Color Utiliy classes for Text</h3> 
+        <p class="text-primary">.text-primary</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-dark">.text-dark</p>
+        <p>This could applied to any text HTML element </p>
+    </div>
+    <code>
+        &lt;p class="text-primary"&gt; .text-primary&lt;/p&gt;
+        <br>
+        &lt;p class="text-secondary"&gt; .text-secondary&lt;/p&gt;
+        <br>
+        &lt;p class="text-success"&gt; .text-success&lt;/p&gt;
+        <br>
+        &lt;p class="text-danger"&gt; .text-danger&lt;/p&gt;
+        <br>
+        &lt;p class="text-dark"&gt; .text-dark&lt;/p&gt;
+    </code>
+
+    <div class="color_background">
+        <h3>Color Utiliy classes for Background</h3> 
+        <p class="bg-primary">.bg-primary</p>
+        <p class="bg-secondary">.bg-secondary</p>
+        <p class="bg-success">.bg-success</p>
+        <p class="bg-danger">.bg-danger</p>
+        <p>This could applied to any block HTML element </p>
+    </div>
+    <code>
+        &lt;p class="bg-primary"&gt; .bg-primary&lt;/p&gt;
+        <br>
+        &lt;p class="bg-secondary"&gt; .bg-secondary&lt;/p&gt;
+        <br>
+        &lt;p class="bg-success"&gt; .bg-success&lt;/p&gt;
+        <br>
+        &lt;p class="bg-danger"&gt; .bg-danger&lt;/p&gt;
+        <br>
+
     </code>
 
     <h4>Padding Examples</h4>
@@ -62,6 +106,7 @@
         <br>
     </code>
 
+<<<<<<< HEAD
     <h3>Font Sizes</h3>
     <p class="fs-1">Font Size 1</p>
 <p class="fs-2">Font Size 2</p>
@@ -114,6 +159,47 @@
     <br>
     &lt;p class="fw-thin"&gt;Very thin weight text.&lt;/p&gt;
 </code>
+=======
+    <!---------------Margin Utility classes--------->
+
+    <h4>Margin Examples</h4>
+
+        <section>
+            <!-- <div class="m">Marging</div>
+            <br> -->
+            <div class="container-m">
+                <div class="m-r">Marging-right</div>
+            </div>
+            <br>
+            <div class="container-m">
+                <div class="m-t">Marging-top</div>
+            </div>
+            <br>
+            <div class="container-m">
+                <div class="m-b">Marging-bottom</div>
+            </div>
+            <br>
+            <div class="container-m">
+                <div class="m-l">Marging-left</div>
+            </div>
+            <br>
+
+            <p>The marign style can be applied using these code:</p>
+                <code>
+                    &lt;div class="m-r"&gt;Marging-right&lt;/div&gt;
+                    <br>
+                    &lt;div class="m-t"&gt;Marging-top&lt;/div&gt;
+                    <br>
+                    &lt;div class="m-b"&gt;Marging-bottom;/div&gt;
+                    <br>
+                    &lt;div class="m-l"&gt;Marging-left;/div&gt;
+                    <br>
+                </code>
+        </section>    
+
+        <p>Thank you!</p>
+        <br>
+>>>>>>> bbe56d76498d62ebbf4f11948b32f16f0b5a9233
 
     
 

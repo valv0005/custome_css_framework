@@ -26,8 +26,39 @@ h3 {
 }
 
   
-  .nav-button:hover {
-    background-color: #555;
+//navigation
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+  nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  nav ul .tabs {
+    padding: 10px 20px;
+  }
+
+  nav ul .tabs a {
+    text-decoration: none;
+    font-size: 18px;
+    color: $primary;
+    padding: 14px 16px;
+  }
+    
+  .tabs a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .tabs a.active {
+    color: white;
+    background-color: $primary;
   }
 
 
@@ -134,7 +165,7 @@ input[type=text], select {
   
   input[type=submit] {
     width: 100%;
-    background-color: $accent-color;
+    background-color: $primary;
     color: white;
     padding: 1rem 1rem;
     margin: 0.1rem 0;
@@ -209,9 +240,125 @@ input[type=text], select {
     padding-top: $lg;
 }
 
+// Text utilities color
+.text-primary{
+    color:$primary;
+}
+
+.text-secondary{
+    color:$secondary;
+}
+.text-success{
+    color:$success;
+}
+.text-danger{
+    color:$danger;
+}
+.text-dark{
+    background-color:$dark;
+    color:white;
+}
+
+
+// Text utilities color
+.bg-primary{
+    background-color:$primary;
+    color:white;
+}
+
+.bg-secondary{
+    background-color:$secondary;
+    color:white;
+}
+.bg-success{
+    background-color:$success;
+    color:white;
+}
+.bg-danger{
+    background-color:$danger;
+    color:white;
+}
+// ------------------------------
+// Margin Utility Classes
+
+.container-m {
+    border: solid $danger;
+    padding: 0.1rem;
+}
+
+.m {
+    font-size: 20px;
+    border: 1px solid $border_primary;
+    text-align: center;
+    color:azure;
+    background-color: tomato;
+
+}
+
+.m-r {
+    @extend .m;
+    margin-right: $xs;
+}
+
+.m-t {
+    @extend .m;
+    margin-top: $sm;
+}
+
+.m-b {
+    @extend .m;
+    margin-bottom: $sm;
+}
+
+.m-l {
+    @extend .m;
+    margin-left: $sm;
+}
+
+
+// --------------------------------
+
+
+  
 
 
 
 
+
+@media (max-width: 767px) {
+    header{
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        background-color: #ddd;
+    }
+
+    .tabs a {
+        width: 100%;
+      }
+
+      nav ul .tabs {
+        padding: 0px 0px;
+      }
+
+      .tabs a.active {
+        color: none;
+        background-color: none;
+      }
+
+      .tabs a:hover:not(.active) {
+        background-color: none;
+      }
+
+      .tabs a:hover {
+        background-color: #ddd;
+      }
+}
 
 
