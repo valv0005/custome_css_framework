@@ -2,7 +2,7 @@
 
 ## Description
 
-Sabor CSS framework contains 6 elements and 6 utilities to add in any CSS project. Our project team describe the installation, usage, and customazation instructions. Also, we have included the folder structure and list of variable for customization. 
+The first version of Sabor CSS framework contains 6 elements and 6 utilities to add in any CSS project. Our project team describe the installation, usage, and customazation instructions. Also, we have included the folder structure and list of variable for customization. 
 
 ## Project folder structure
 This is the structure of the project folder
