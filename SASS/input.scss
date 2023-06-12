@@ -305,6 +305,62 @@ input[type=text], select {
     margin-left: $sm;
 }
 
+.fs-1 {
+    font-size: 48px;
+  }
+  
+  .fs-2 {
+    font-size: 40px;
+  }
+  
+  .fs-3 {
+    font-size: 32px;
+  } 
+  
+  .fs-4 {
+    font-size: 24px;
+  } 
+  
+  .fs-5 {
+    font-size: 20px;
+  } 
+  
+  .fs-6 {
+    font-size: 16px;
+  } 
+  
+  .fw-bold {
+    font-weight: 700;
+  } 
+  
+  .fw-bolder {
+    font-weight: 800;
+  } 
+  
+  .fw-semibold {
+    font-weight: 600;
+  } 
+  
+  .fw-medium {
+    font-weight: 500;
+  } 
+  
+  .fw-normal {
+    font-weight: 400;
+  } 
+  
+  .fw-light {
+    font-weight: 300;
+  } 
+  
+  .fw-lighter {
+    font-weight: 200;
+  } 
+  
+  .fw-thin {
+    font-weight: 100;
+  }
+
 @media (max-width: 767px) {
     header{
         display: block;
@@ -339,64 +395,4 @@ input[type=text], select {
       .tabs a:hover {
         background-color: #ddd;
       }
-
-      .fs-1 {
-        font-size: 48px;
-      }
-      
-      .fs-2 {
-        font-size: 40px;
-      }
-      
-      .fs-3 {
-        font-size: 32px;
-      } 
-      
-      .fs-4 {
-        font-size: 24px;
-      } 
-      
-      .fs-5 {
-        font-size: 20px;
-      } 
-      
-      .fs-6 {
-        font-size: 16px;
-      } 
-      
-      .fw-bold {
-        font-weight: 700;
-      } 
-      
-      .fw-bolder {
-        font-weight: 800;
-      } 
-      
-      .fw-semibold {
-        font-weight: 600;
-      } 
-      
-      .fw-medium {
-        font-weight: 500;
-      } 
-      
-      .fw-normal {
-        font-weight: 400;
-      } 
-      
-      .fw-light {
-        font-weight: 300;
-      } 
-      
-      .fw-lighter {
-        font-weight: 200;
-      } 
-      
-      .fw-thin {
-        font-weight: 100;
-      }
-      
-}
-
-
 }
